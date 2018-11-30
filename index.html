@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <script type="text/javascript" src="d3.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="#" />
+</head>
+<body>
+    <h1>Is Premium Education Worth It?</h1>
+    <div id="wrapper">
+        <div id="filter"></div>
+        <div id="chart1">
+            <h2>Admission Rate vs. Average Cost of Attendance</h2>
+        </div>
+        <div id="chart2">
+            <h2>Median Earnings 8 Years After Entry vs Median Debt on Graduation</h2>
+        </div>
+        <div style="width: 100%;"></div>
+        <div id="genDetails">
+            <h2>General Details</h2>
+            <strong>College Name: </strong> <span id="Name"></span><br/>
+            <strong>Admission Rate: %</strong> <span id="Admission Rate"></span><br/>
+            <strong>Control: </strong> <span id="Control"></span><br/>
+            <strong>Region: </strong> <span id="Region"></span><br/>
+            <strong>Locale : </strong> <span id="Locale"></span><br/>
+            <strong>ACT Median: </strong> <span id="ACT Median"></span><br/>
+            <strong>SAT Average: </strong> <span id="SAT Average"></span><br/>
+            <strong>Undergraduate Population: </strong> <span id="Undergrad Population"></span><br/>
+            <strong>Retention Rate (First Time Students): %</strong> <span id="Retention"></span><br/>
+            <strong>Average Age of Entry: </strong> <span id="Average Age of Entry"></span><br/>
+        </div>
+        <div id="finDetails">
+            <h2>Finance Details</h2>
+            <strong>Average Cost of Attendance: $</strong> <span id="Average Cost"></span><br/>
+            <strong>Expenditure Per Student: $</strong> <span id="Expenditure Per Student"></span><br/>
+            <strong>Median Debt on Graduation: $</strong> <span id="Median Debt"></span><br/>
+            <strong>Median Earnings 8 Years After Entry: $</strong> <span id="Median Earnings"></span><br/>
+            <strong>Average Faculty Salary: $</strong> <span id="Average Faculty Salary"></span><br/>
+            <strong>3 Year Default Rate: %</strong> <span id="Default Rate"></span><br/>
+            <strong>Federal Loans: %</strong> <span id="Federal Loans"></span><br/>
+            <strong>Pell Grant Recipients: %</strong> <span id="Pell Grant"></span><br/>
+            <strong>Median Family Income: $</strong> <span id="Median Family Income"></span><br/>
+            <strong>Poverty Rate: %</strong> <span id="Poverty Rate"></span><br/>
+            <strong>Number of Unemployed 8 years after entry: </strong> <span id="Number of Unemployed 8 years after entry"></span><br/>
+            <strong>Number of Employed 8 years after entry: </strong> <span id="Number of Employed 8 years after entry"></span><br/>
+        </div><br/>
+        <div>
+            <div id="ethDetails">
+                <h2>Ethnicity Details</h2>
+                <br/>
+                <svg id="ethChart"></svg><br/>
+            </div>
+            <div id="subWrapper">
+                <span>White: </span>
+                <svg width="12" height="12">
+                    <rect width="12" height="12" style="fill: #ee1c25;"/>
+                </svg>
+                <span id="White"></span><br/>
+                <span>Black: </span>
+                <svg width="12" height="12">
+                    <rect width="12" height="12" style="fill: #a3218e;"/>
+                </svg>
+                <span id="Black"></span><br/>
+                <span>Hispanic: </span>
+                <svg width="12" height="12">
+                    <rect width="12" height="12" style="fill: #592f93;"/>
+                </svg>
+                <span id="Hispanic"></span><br/>
+                <span>Asian: </span>
+                <svg width="12" height="12">
+                    <rect width="12" height="12" style="fill: #0465b2;"/>
+                </svg>
+                <span id="Asian"></span><br/>
+                <span>American Indian: </span>
+                <svg width="12" height="12">
+                    <rect width="12" height="12" style="fill: #05a45e;"/>
+                </svg>
+                <span id="American Indian"></span><br/>
+                <span>Pacific Islander: </span>
+                <svg width="12" height="12">
+                    <rect width="12" height="12" style="fill: #70bf42;"/>
+                </svg>
+                <span id="Pacific Islander"></span><br/>
+                <span>Biracial: </span>
+                <svg width="12" height="12">
+                    <rect width="12" height="12" style="fill: #fef102;"/>
+                </svg>
+                <span id="Biracial"></span><br/>
+                <span>Other: </span>
+                <svg width="12" height="12">
+                    <rect width="12" height="12" style="fill: #f58225;"/>
+                </svg>
+                <span id="Other"></span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

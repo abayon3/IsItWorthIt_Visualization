@@ -1,0 +1,122 @@
+body {
+	  font: 12px sans-serif;
+	}
+	.tick > line {
+		fill: none;
+		stroke: black;
+	}
+	.tick > text {
+		fill: black;
+	}
+	path.domain {
+		fill: none;
+		stroke-width: 2px;
+		stroke: black;
+	}
+    div.tooltip {
+        position: absolute;
+        text-align: center;
+        width: auto;
+        height: auto;
+        padding: 4px;
+        font: 12px sans-serif;
+        background: lightsteelblue;
+        border: 0px;
+        border-radius: 8px;
+        pointer-events: none;
+    }
+    .LadLcost {
+        stroke: #50E262;
+        fill: #50E262;
+    }
+    .llButton {
+        background-color: #50E262 !important;
+    }
+    .LadHcost {
+        stroke: #E2AB50;
+        fill: #E2AB50;
+    }
+    .lhButton {
+        background-color: #E2AB50 !important;
+    }
+    .HadLcost {
+        stroke: #5087E2;
+        fill: #5087E2;
+    }
+    .hlButton {
+        background-color: #5087E2 !important;
+    }
+    .HadHcost {
+        stroke: #E250D0;
+        fill: #E250D0;
+    }
+    .hhButton {
+        background-color: #E250D0 !important;
+    }
+    #chart1 circle {
+        cursor: pointer;
+    }
+    #chart2 circle {
+        cursor: pointer;
+    }
+    #filter button {
+        cursor: pointer;
+        border: none;
+        background-color: darkgray;
+        color: white;
+        padding: 5px 5px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+    }
+    #filter span {
+        margin-left: 15px;
+    }
+    #filter g {
+        margin-left: 10px;
+    }
+	#wrapper {
+		clear:both;
+	}
+	#chart1 {
+	    float:left;
+	}
+    #chart1 h2 {
+        padding-top: 20px;
+    }
+    #chart2 {
+	    float:left;
+	}
+    #chart2 h2 {
+        padding-top: 20px;
+    }
+    #subWrapper {
+        float: left;
+        margin-top: 80px;
+    }
+    #filter {
+        padding-top: 20px;
+    }
+    #genDetails, #finDetails, #ethDetails {
+        float:left;
+        padding: 10px;
+        margin: 10px;
+    }
+    #ethDetails span {
+        padding-left: 10px;
+    }
+    #details.div {
+        float: left;
+    }
+h1 {
+    margin-bottom: 0;
+    font-family: "Arial Black", Gadget, sans-serif;
+    -webkit-text-fill-color: cornflowerblue;
+    padding-left: 30px;
+    text-align: center;
+}
+.selected {
+    stroke:#434343 !important;
+    stroke-width: 2.4px;
+    r: 5px;
+}
